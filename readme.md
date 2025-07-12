@@ -10,9 +10,13 @@ Chaque fois que vous cliquez sur le bouton « Cliquez moi ! », le compteu
 
 ## 📂 Structure du projet
 compteur-de-clics/
+
 ├── index.html # La page HTML principale
+
 ├── script.js # La logique JavaScript du compteur
+
 ├── style.css # Les styles CSS
+
 └── README.md # Ce fichier de documentation
 
 ---
