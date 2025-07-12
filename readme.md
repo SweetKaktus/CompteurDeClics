@@ -9,6 +9,11 @@ L'application affiche un nombre qui commence à **0**.
 Chaque fois que vous cliquez sur le bouton « Cliquez moi ! », le compteur s'incrémente de 1.
 
 ## 📂 Structure du projet
+compteur-de-clics/
+├── index.html # La page HTML principale
+├── script.js # La logique JavaScript du compteur
+├── style.css # Les styles CSS
+└── README.md # Ce fichier de documentation
 
 ---
 
