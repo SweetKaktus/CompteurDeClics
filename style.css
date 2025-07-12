@@ -1,0 +1,72 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Conteneur principal */
+main {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+/* Titre */
+.sectionTitre h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Paragraphe de présentation */
+.sectionTitre p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Zone affichant le nombre */
+#zoneNombre {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 2px solid #007BFF;
+  border-radius: 6px;
+  background-color: #e9f3ff;
+}
+
+/* Bouton de clic */
+#boutonIncremental {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#boutonIncremental:hover {
+  background-color: #0056b3;
+}
